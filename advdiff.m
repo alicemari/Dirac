@@ -1,4 +1,5 @@
-function advdiff(ka,R)
+function advdiff(ka,R) 
+%
 m = 0;
 x = [0:0.00005:1]; 
 t = [0:0.00005:2];
