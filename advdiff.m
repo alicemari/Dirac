@@ -1,7 +1,7 @@
 function advdiff(ka,R)
 m = 0;
 x = [0:0.00005:1]; 
-t = [0:0.00005:2];
+t = [0:0.00005:2]; %generally less number of steps
 pars=[ka,R];
 %    [t,y] = ode15s(@vdp1000,tspan,y0,opts);
 
